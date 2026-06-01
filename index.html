@@ -303,6 +303,7 @@ footer .ft-links{display:flex;gap:14px;justify-content:center;margin-bottom:10px
   <ul class="links">
     <li><a href="#what">是什么</a></li>
     <li><a href="#features">特性</a></li>
+    <li><a href="#sensors">传感器</a></li>
     <li><a href="#download">下载</a></li>
     <li><a href="#privacy">隐私</a></li>
   </ul>
@@ -380,7 +381,7 @@ footer .ft-links{display:flex;gap:14px;justify-content:center;margin-bottom:10px
     <div class="card reveal reveal-d1">
       <div class="icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="5" stroke="#00f0ff" stroke-width="1.5" opacity=".7"/><circle cx="18" cy="18" r="12" stroke="#8b5cf6" stroke-width="1" stroke-dasharray="3 5" opacity=".4"/><circle cx="18" cy="18" r="15" stroke="#ff0055" stroke-width="0.8" stroke-dasharray="2 8" opacity=".25"/><circle cx="6" cy="12" r="2" fill="#00f0ff" opacity=".8"/><circle cx="28" cy="22" r="1.8" fill="#ff0055" opacity=".6"/><circle cx="22" cy="7" r="1.4" fill="#8b5cf6" opacity=".7"/></svg></div>
       <h3>自动巡航</h3>
-      <p>只需戴上传感器，你。神游自动采集生理数据，在情绪"奇点"时刻自动匹配风景。</p>
+      <p>只需戴上传感器，你只需follow your routine。神游自动采集生理数据，在情绪"奇点"时刻自动匹配风景。</p>
     </div>
     <div class="card reveal reveal-d2">
       <div class="icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect x="15" y="2" width="6" height="14" rx="3" stroke="#00f0ff" stroke-width="1.5" opacity=".9"/><rect x="15" y="20" width="6" height="14" rx="3" stroke="#8b5cf6" stroke-width="1.5" opacity=".7"/><rect x="2" y="15" width="14" height="6" rx="3" stroke="#ff0055" stroke-width="1.5" opacity=".9"/><rect x="20" y="15" width="14" height="6" rx="3" stroke="#8b5cf6" stroke-width="1.5" opacity=".6"/><circle cx="18" cy="18" r="1.5" fill="#00f0ff"/></svg></div>
@@ -410,6 +411,44 @@ footer .ft-links{display:flex;gap:14px;justify-content:center;margin-bottom:10px
   </div>
 </section>
 
+<!-- ═══════════ SENSORS ═══════════ -->
+<section id="sensors">
+  <div class="sec-eyebrow reveal">Hardware</div>
+  <h2 class="sec-title reveal">支持的传感器</h2>
+  <p class="sec-desc reveal">蓝牙无线连接，即戴即用。未来将持续扩展可穿戴设备支持。</p>
+
+  <div class="grid grid-2">
+    <div class="card reveal reveal-d1" style="text-align:left;border-left:2px solid rgba(0,240,255,0.2)">
+      <div class="icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M18 4 A14 10 0 0 0 4 14 A14 10 0 0 0 18 24 A14 10 0 0 0 32 14" stroke="#00f0ff" stroke-width="1.3" fill="none" opacity=".8"/><path d="M18 6 A12 8 0 0 0 6 14 A12 8 0 0 0 18 22" stroke="#8b5cf6" stroke-width="1" fill="none" opacity=".6"/><circle cx="18" cy="7" r="2.5" fill="#00f0ff" opacity=".9"/><line x1="18" y1="9" x2="18" y2="16" stroke="#00f0ff" stroke-width="1.2" opacity=".5"/><path d="M13 17 Q14.5 14 18 14 Q21.5 14 23 17" stroke="#ff0055" stroke-width="1.2" fill="none" opacity=".6"/></svg></div>
+      <h3 style="font-size:15px;font-weight:600">EEG 脑电</h3>
+      <p style="margin-bottom:10px">KSEEG102 双通道蓝牙模组</p>
+      <p style="font-size:12px;color:var(--text-dim)">实时捕捉脑电波频段（δ/θ/α/β/γ），用于情绪唤醒度和放松度分析。</p>
+      <span class="chip" style="margin-top:12px;display:inline-block;font-size:10px">蓝牙 BLE</span>
+    </div>
+    <div class="card reveal reveal-d2" style="text-align:left;border-left:2px solid rgba(139,92,246,0.2)">
+      <div class="icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="15" r="8" stroke="#ff0055" stroke-width="1.3" opacity=".7"/><path d="M10 19 Q14 26 18 22 Q22 18 26 24" stroke="#00f0ff" stroke-width="1.3" fill="none" opacity=".8"/><line x1="18" y1="7" x2="18" y2="11" stroke="#8b5cf6" stroke-width="1" opacity=".5"/><circle cx="10" cy="9" r="2" fill="#00f0ff" opacity=".6"/><circle cx="26" cy="9" r="1.8" fill="#ff0055" opacity=".5"/></svg></div>
+      <h3 style="font-size:15px;font-weight:600">PPG + GSR</h3>
+      <p style="margin-bottom:10px">蓝牙透传 · Cheez PPG · Sichiray GSR V2</p>
+      <p style="font-size:12px;color:var(--text-dim)">PPG 光电容积描记（心率/HRV）+ GSR 皮肤电导反应，捕捉交感神经激活程度。</p>
+      <span class="chip" style="margin-top:12px;display:inline-block;font-size:10px">蓝牙串口透传</span>
+    </div>
+    <div class="card reveal reveal-d3" style="text-align:left;border-left:2px solid rgba(245,158,11,0.2)">
+      <div class="icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="14" r="10" stroke="#f59e0b" stroke-width="1" stroke-dasharray="3 4" opacity=".5"/><circle cx="18" cy="14" r="5" stroke="rgba(0,240,255,0.3)" stroke-width="1.2" opacity=".7"/><path d="M8 10 Q4 8 5 14" stroke="#00f0ff" stroke-width="1" fill="none" opacity=".6"/><path d="M28 10 Q32 8 31 14" stroke="#ff0055" stroke-width="1" fill="none" opacity=".6"/><circle cx="18" cy="14" r="1.5" fill="#f59e0b" opacity=".8"/></svg></div>
+      <h3 style="font-size:15px;font-weight:600">未来支持</h3>
+      <p style="margin-bottom:10px">Muse · Oura · Emotiv 等</p>
+      <p style="font-size:12px;color:var(--text-dim)">计划接入主流脑电设备和智能穿戴设备。Muse 多通道 EEG、Oura Ring 指环 PPG、Emotiv 科研级脑电……持续扩展。</p>
+      <span class="chip" style="margin-top:12px;display:inline-block;font-size:10px;background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.18);color:var(--amber)">开发中</span>
+    </div>
+    <div class="card reveal reveal-d4" style="text-align:left;border-left:2px solid rgba(255,0,85,0.15);background:linear-gradient(135deg,rgba(255,0,85,0.03),rgba(139,92,246,0.02))">
+      <div class="icon"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"><rect x="6" y="5" width="24" height="26" rx="6" stroke="#ff0055" stroke-width="1.3" opacity=".7"/><circle cx="18" cy="17" r="6" stroke="#00f0ff" stroke-width="1.2" opacity=".8"/><path d="M14 13 L22 21 M22 13 L14 21" stroke="#8b5cf6" stroke-width="0.8" opacity=".4"/><circle cx="18" cy="17" r="2" fill="#ff0055" opacity=".6"/></svg></div>
+      <h3 style="font-size:15px;font-weight:600">神游一体设备</h3>
+      <p style="margin-bottom:10px">EEG + PPG + GSR 三合一</p>
+      <p style="font-size:12px;color:var(--text-dim)">我们正在打造一款集成脑电、心率、皮肤电的穿戴设备。一副耳机形态，开机即用，无需分别配对多个传感器。敬请期待。</p>
+      <span class="chip" style="margin-top:12px;display:inline-block;font-size:10px;background:rgba(255,0,85,0.08);border:1px solid rgba(255,0,85,0.18);color:var(--magenta)">即将推出</span>
+    </div>
+  </div>
+</section>
+
 <!-- ═══════════ DOWNLOAD ═══════════ -->
 <section id="download">
   <div class="cta-card reveal">
@@ -417,7 +456,7 @@ footer .ft-links{display:flex;gap:14px;justify-content:center;margin-bottom:10px
     <h2 class="sec-title">准备好神游了吗？</h2>
     <p class="sec-desc" style="margin:6px auto 28px;max-width:220px"> 目前仅限 Android</p>
     <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-      <a href="http://47.110.136.237:8089/emotrek-1.0.0.apk" class="btn btn-glow" download><svg width="18" height="18" viewBox="0 0 18 18" fill="none" style="vertical-align:-3px"><path d="M9 2v10M5 8l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="3" y1="15" x2="15" y2="15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>APK 下载</a>
+      <a href="#" class="btn btn-glow" onclick="return false"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" style="vertical-align:-3px"><path d="M9 2v10M5 8l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="3" y1="15" x2="15" y2="15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>APK 下载</a>
     </div>
     <p style="color:var(--text-dim);font-size:10.5px;margin-top:18px">Android 8.0+ · 1.0.0-beta</p>
   </div>
